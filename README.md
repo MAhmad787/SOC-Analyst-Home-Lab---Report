@@ -70,3 +70,11 @@ This project helped me understand:
 - How to respond automatically to threats.
 
 Even though some attack simulations didn’t go as planned (e.g., Procdump, SAM access), I still got valuable insight into SOC workflows, and I plan to build on this in my next project.
+
+
+## Screenshots 
+
+##### Malware Stagged
+![Malware Stagged](./images/Malware%20Stagged.png)
+
+Downloaded the payload executable file into the victim machine.
