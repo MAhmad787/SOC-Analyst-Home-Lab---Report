@@ -78,3 +78,34 @@ Even though some attack simulations didn’t go as planned (e.g., Procdump, SAM 
 ![Malware Stagged](./images/Malware%20Stagged.png)
 
 Downloaded the payload executable file into the victim machine.
+
+
+##### Session Established
+![Session Established](./images/Session%20Established.png)
+
+I established the session with c2 command and control server using that payload.
+
+
+##### Telemetry
+![Payload Telemetry](./images/Log%20of%20Payload.png)
+
+Showing the details of that payload's executable file in Lima Charlie Timeline tab.
+
+
+##### Detection and Response Rule
+![Detection and Response Rule](./images/D%20&%20R%20on%20Payload%20Execution.png)
+
+I have applied rules on the execution of that file to trigger some action
+
+
+##### System Isolated
+![System Isolated](./images/System%20Isolated.png)
+
+Showing that the system is completely isolated, no access to internet.
+
+
+##### Session Terminated
+![Session Terminated](./images/Session%20Terminated.png)
+
+When that event triggered the system is isolated and the session is terminated
+
